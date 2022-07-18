@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, sans-serif;
+  user-select: none;
+}
+
+body {
+  background: #f7f8fa;
+}
+
+input,
+button,
+span,
+div {
+  outline: none;
+}
+
+
+@keyframes img_rotate {
+  0%{
+    transform: rotateZ(0deg);/*从0度开始*/
+  }
+  100%{
+    transform: rotateZ(360deg);/*360度结束*/
+  }
+}
